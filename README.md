@@ -10,7 +10,6 @@
 ## Технологии
 - [Python](https://www.python.org/)
 - [Django](https://www.djangoproject.com/)
-- ...
 
 
 ## Начало работы
@@ -20,21 +19,26 @@
 
 ### Установка зависимостей
 Для установки зависимостей, выполните команду:
-```sh
-$ pip install -r requirements.txt
+```
+ pip install -r requirements.txt
+```
+
+### Парсинг данных
+Для загрузки данных с ресурса https://jsonplaceholder.typicode.com/posts выполните команду:
+```
+ python .\manage.py parse_data
 ```
 
 ### Запуск сервера
-Чтобы запустить сервер для разработки, выполните команду:
-```sh
-python.exe manage.py runserver
+Чтобы запустить сервер, выполните команду:
 ```
+ python.exe manage.py runserver
 ```
 
 ## Тестирование
 Проект покрывает тестами сортировку и поиск. Для их запуска выполните команду:
-```sh
-python .\manage.py test post.tests
+```
+ python .\manage.py test post.tests
 ```
 
 ### Зачем вы разработали этот проект?
